@@ -1,0 +1,22 @@
+.section-2 {
+  margin-top: 30px;
+  background-color: rgba(#ebebf2, 1);
+}
+.paralax {
+  width: 100%;
+  background: url(../../images/sect2bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  &__off {
+    opacity: 1;
+  }
+  &__title {
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 44px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}

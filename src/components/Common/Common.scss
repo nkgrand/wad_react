@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1185px;
+  position: relative;
+}
+
+.page-content {
+  max-width: 1185px;
+  margin: 0 auto;
+}
